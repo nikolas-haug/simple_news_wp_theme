@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-        <form action="" class="ink-form">
+        <form action="<?php echo esc_url(site_url('/')); ?>" method="GET" class="ink-form">
             <div class="ink-grid">
                 <div class="panel">
                     <div class="control-group append-button">
